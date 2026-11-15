@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+*.db
+*.npy
+*.jsonl
+*.tsbuildinfo
+
+# Frontend
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local backups and development files
+ORBIT_AI_BACKUP/
+backend/DL_PROJECT.ipynb
+frontend/src/App.backup.tsx
